@@ -4,12 +4,12 @@ import styles from './Header.module.scss';
 const Header = () => {
     return (
     <div className={styles.wrapper}>
-        <span className={styles.title}>
+        <div className={styles.title}>
             – Get the work done –
-        </span>
-        <span className={styles.title2}>
+        </div>
+        <div className={styles.title2}>
          Pomodoro Focus
-        </span>
+        </div>
     </div>
     )
 }
